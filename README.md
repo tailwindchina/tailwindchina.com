@@ -1,5 +1,7 @@
 # TailwindCSS 中文网
 
+![TailwindChina Logo](./vuepress/.vuepress/public/logo.png)
+
 [TailwindCSS 中文网](http://tailwindchina.com)
 
 TailwindCSS 使用教程、中文文档及相关资源。
