@@ -7,3 +7,4 @@ sidebar: auto
 ## 安装集成
 
 - [在 Vue2 项目中安装 TailwindCSS](./installing-tailwindcss-with-vue-cli.md)
+- [Tailwind Cli 的用法](./tailwind-cli-usages.md)
