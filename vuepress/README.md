@@ -5,6 +5,7 @@ heroText: TailwindCSS 中文网
 tagline: TailwindCSS 使用教程、中文文档及相关资源
 actionText: 浏览使用教程
 actionLink: /guides/
+footer: MIT Licensed | Copyright © 2020 TailwindCSS 中文网 (TailwindChina.com)
 features: 
 - title: 使用教程
   details: 有关 TailwindCSS 的使用教程，包括原创及翻译的文章。
