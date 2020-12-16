@@ -4,8 +4,8 @@
   "description": "TailwindCSS 视频课文档",
   "author": "雨中歌者",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev vuepress",
+    "docs:build": "vuepress build vuepress"
   },
   "license": "MIT",
   "devDependencies": {

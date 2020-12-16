@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>在 Vue 项目中安装 TailwindCSS | TailWindCSS 中文网</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="使用教程、中文文档及相关资源">
+    
+    <link rel="preload" href="/assets/css/0.styles.8ed3cfd1.css" as="style"><link rel="preload" href="/assets/js/app.0e0852b2.js" as="script"><link rel="preload" href="/assets/js/2.bee02b5e.js" as="script"><link rel="preload" href="/assets/js/10.4a8be808.js" as="script"><link rel="prefetch" href="/assets/js/11.c304d170.js"><link rel="prefetch" href="/assets/js/3.0f21fe63.js"><link rel="prefetch" href="/assets/js/4.d1ae9c7a.js"><link rel="prefetch" href="/assets/js/5.fc791712.js"><link rel="prefetch" href="/assets/js/6.ffe6f60a.js"><link rel="prefetch" href="/assets/js/7.adb528a8.js"><link rel="prefetch" href="/assets/js/8.04376804.js"><link rel="prefetch" href="/assets/js/9.33720b07.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8ed3cfd1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">TailWindCSS 中文网</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  网站首页
+</a></div><div class="nav-item"><a href="/guides/" class="nav-link router-link-active">
+  使用教程
+</a></div><div class="nav-item"><a href="http://docs.tailwindchina.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文文档
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/resources/" class="nav-link">
+  相关资源
+</a></div><div class="nav-item"><a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  英文网站
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/tailwindchina" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  网站首页
+</a></div><div class="nav-item"><a href="/guides/" class="nav-link router-link-active">
+  使用教程
+</a></div><div class="nav-item"><a href="http://docs.tailwindchina.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文文档
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/resources/" class="nav-link">
+  相关资源
+</a></div><div class="nav-item"><a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  英文网站
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/tailwindchina" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>在 Vue 项目中安装 TailwindCSS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#创建-vue-项目" class="sidebar-link">创建 Vue 项目</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#安装-tailwindcss" class="sidebar-link">安装 TailwindCSS</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#创建-tailwindcss-配置文件" class="sidebar-link">创建 TailwindCSS 配置文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#安装-postcss-和-autoprefixer" class="sidebar-link">安装 PostCSS 和 autoprefixer</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#创建-postcss-配置文件" class="sidebar-link">创建 PostCSS 配置文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#引入-tailwindcss" class="sidebar-link">引入 TailwindCSS</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#启动-vue-cli-本地服务" class="sidebar-link">启动 Vue Cli 本地服务</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#测试-tailwindcss" class="sidebar-link">测试 TailwindCSS</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guides/installing-tailwindcss-with-vue-cli.html#生产优化-减少代码体积" class="sidebar-link">生产优化，减少代码体积</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="在-vue-项目中安装-tailwindcss"><a href="#在-vue-项目中安装-tailwindcss" class="header-anchor">#</a> 在 Vue 项目中安装 TailwindCSS</h1> <p>通过 Vue Cli 可以方便的来安装 <code>TailwindCSS</code>，并使用 <code>PostCSS</code> 以及 <code>autoprefixer</code> 插件。</p> <h2 id="创建-vue-项目"><a href="#创建-vue-项目" class="header-anchor">#</a> 创建 Vue 项目</h2> <p>使用 Vue Cli 创建一个 vue2 项目</p> <div class="language- extra-class"><pre><code>vue create tailwindcss-with-vue-cli
+</code></pre></div><h2 id="安装-tailwindcss"><a href="#安装-tailwindcss" class="header-anchor">#</a> 安装 TailwindCSS</h2> <div class="language- extra-class"><pre><code>yarn add tailwindcss
+</code></pre></div><h2 id="创建-tailwindcss-配置文件"><a href="#创建-tailwindcss-配置文件" class="header-anchor">#</a> 创建 TailwindCSS 配置文件</h2> <div class="language- extra-class"><pre><code>npx tailwindcss init
+</code></pre></div><p>此命令将在根目录下创建 <code>tailwind.config.js</code> 。</p> <h2 id="安装-postcss-和-autoprefixer"><a href="#安装-postcss-和-autoprefixer" class="header-anchor">#</a> 安装 PostCSS 和 autoprefixer</h2> <div class="language- extra-class"><pre><code>yarn add --dev postcss autoprefixer
+</code></pre></div><h2 id="创建-postcss-配置文件"><a href="#创建-postcss-配置文件" class="header-anchor">#</a> 创建 PostCSS 配置文件</h2> <p>在项目根目录下面创建 <code>postcss.config.js</code></p> <div class="language- extra-class"><pre><code>// postcss.config.js
+module.exports = {
+    plugins: [
+        require('tailwindcss')(),
+        require('autoprefixer')(),
+    ]
+}
+</code></pre></div><h2 id="引入-tailwindcss"><a href="#引入-tailwindcss" class="header-anchor">#</a> 引入 TailwindCSS</h2> <p>在 <code>src/assets</code> 目录下面创建 <code>tailwindcss.css</code></p> <div class="language- extra-class"><pre><code>// src/assets/tailwindcss.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</code></pre></div><p>然后在 <code>src/main.js</code> 文件中引入</p> <div class="language- extra-class"><pre><code>// src/main.js
+import './assets/tailwindcss.css'
+</code></pre></div><h2 id="启动-vue-cli-本地服务"><a href="#启动-vue-cli-本地服务" class="header-anchor">#</a> 启动 Vue Cli 本地服务</h2> <div class="language- extra-class"><pre><code>yarn serve
+</code></pre></div><p>如果出现如下错误</p> <div class="language- extra-class"><pre><code>Syntax Error: Error: PostCSS plugin autoprefixer requires PostCSS 8.
+</code></pre></div><p>说明 <code>PostCSS</code> 与 <code>autoprefixer</code> 的版本不兼容，卸载 <code>autoprefixer</code>，并重新安装上一个版本</p> <div class="language- extra-class"><pre><code>yarn remove autoprefixer
+yarn add --dev autoprefixer@^9
+</code></pre></div><p>再次运行</p> <div class="language- extra-class"><pre><code>yarn serve
+</code></pre></div><p>如果运行正常，则说明版本兼容性问题解决。</p> <h2 id="测试-tailwindcss"><a href="#测试-tailwindcss" class="header-anchor">#</a> 测试 TailwindCSS</h2> <p>在 <code>src/App.vue</code> 中添加如下代码</p> <div class="language- extra-class"><pre><code>&lt;div class=&quot;p-3 bg-green-500 text-white&quot;&gt;Hello Tailwind CSS&lt;/div&gt;
+</code></pre></div><p>然后打开 <code>http://localhost:8080/</code> 查看效果，如果出现了预期的样式，则说明集成 <code>Tailwind</code> 成功。</p> <h2 id="生产优化-减少代码体积"><a href="#生产优化-减少代码体积" class="header-anchor">#</a> 生产优化，减少代码体积</h2> <p>我们构建一下生产代码</p> <div class="language- extra-class"><pre><code>yarn build
+</code></pre></div><p>查看一下 <code>dist/css</code> 下的 样式文件，体积有 3M 多。</p> <p>这是因为默认配置下 <code>Tailwind</code> 的体积非常大，在部署到生产环境时，需要对引入的代码进行优化。</p> <p><code>Tailwind</code> 提供了方便的方法来移除没有使用的样式类，从而大大减少最后生成样式文件的体积。</p> <p>打开 <code>tailwind.config.js</code>，在 <code>purge</code> 数组中添加所有需要优化的文件</p> <div class="language- extra-class"><pre><code>// tailwind.config.js
+module.exports = {
+  purge: [
+      'src/**/*.vue',
+  ],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
+</code></pre></div><p>这里我们添加了 <code>src/**/*.vue</code>，来匹配所有的 <code>Vue</code> 组件。</p> <p>再次运行</p> <div class="language- extra-class"><pre><code>yarn build
+</code></pre></div><p>然后查看 <code>dist/css</code> 目录下的样式文件，体积已经只有 3K 多了。</p> <p>开始享用 <code>Tailwind</code> 强大的功能吧。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.0e0852b2.js" defer></script><script src="/assets/js/2.bee02b5e.js" defer></script><script src="/assets/js/10.4a8be808.js" defer></script>
+  </body>
+</html>
