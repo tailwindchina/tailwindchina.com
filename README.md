@@ -1,6 +1,6 @@
 # TailwindCSS 中文网
 
-![TailwindChina Logo](https://cdn.jsdelivr.net/gh/tailwindchina/tailwindchina.com/logo.png)
+![TailwindChina Logo](http://tailwindchina.com/logo.png)
 
 [TailwindCSS 中文网](http://tailwindchina.com)
 
