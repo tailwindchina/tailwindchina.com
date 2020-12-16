@@ -5,7 +5,7 @@
   "author": "雨中歌者",
   "scripts": {
     "docs:dev": "vuepress dev vuepress",
-    "docs:build": "vuepress build vuepress"
+    "docs:build": "vuepress build vuepress & echo 'tailwindchina.com' > docs/CNAME"
   },
   "license": "MIT",
   "devDependencies": {
