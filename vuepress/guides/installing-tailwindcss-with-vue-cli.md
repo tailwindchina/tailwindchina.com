@@ -10,7 +10,7 @@ sidebar: auto
 
 使用 Vue Cli 创建一个 vue2 项目
 
-    vue create tailwindcss-with-vue-cli
+    vue create installing-tailwindcss-with-vue-cli
     
 ## 安装 TailwindCSS
 
@@ -115,5 +115,9 @@ sidebar: auto
     yarn build
 
 然后查看 `dist/css` 目录下的样式文件，体积已经只有 3K 多了。
+
+## Demo 代码
+
+[https://github.com/tailwinddemos/installing-tailwind-with-vue-cli](https://github.com/tailwinddemos/installing-tailwind-with-vue-cli)
 
 开始享用 `Tailwind` 强大的功能吧。
