@@ -116,8 +116,12 @@ sidebar: auto
 
 然后查看 `dist/css` 目录下的样式文件，体积已经只有 3K 多了。
 
+开始享用 `Tailwind` 强大的功能吧。
+
 ## Demo 代码
 
 [https://github.com/tailwinddemos/installing-tailwind-with-vue-cli](https://github.com/tailwinddemos/installing-tailwind-with-vue-cli)
 
-开始享用 `Tailwind` 强大的功能吧。
+## 交流社群
+
+[交流社群](https://tailwindchina.com/discussions/)
