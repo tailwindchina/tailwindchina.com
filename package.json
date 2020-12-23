@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "TailwindCSS 视频课文档",
+  "description": "TailwindCSS 中文网",
   "author": "雨中歌者",
   "scripts": {
     "docs:dev": "vuepress dev vuepress",

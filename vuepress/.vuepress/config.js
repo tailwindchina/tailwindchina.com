@@ -1,6 +1,6 @@
 module.exports = {
     title: 'TailWindCSS 中文网',
-    description: '使用教程、中文文档及相关资源',
+    description: 'TailwindCSS 使用教程、TailwindCSS 中文文档及 TailwindCSS 相关资源',
     dest: './docs',
     themeConfig: {
         nav: [

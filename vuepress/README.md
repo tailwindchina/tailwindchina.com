@@ -2,7 +2,7 @@
 home: true
 heroImage: logo.png
 heroText: TailwindCSS 中文网
-tagline: TailwindCSS 使用教程、中文文档及相关资源
+tagline: TailwindCSS 使用教程、TailwindCSS 中文文档及 TailwindCSS 相关资源'
 actionText: 浏览使用教程
 actionLink: /guides/
 footer: MIT Licensed | Copyright © 2020 TailwindCSS 中文网 (TailwindChina.com)
