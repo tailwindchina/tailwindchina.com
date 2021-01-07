@@ -23,6 +23,12 @@ module.exports = {
           {
             'ga': 'G-F7SM6GQ27L'
           }
+        ],
+        [
+            'vuepress-plugin-sitemap',
+            {
+                'hostname': 'https://tailwindchina.com'
+            }
         ]
     ]
 }
