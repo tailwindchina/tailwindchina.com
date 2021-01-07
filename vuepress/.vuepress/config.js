@@ -12,5 +12,13 @@ module.exports = {
             { text: '英文网站', link: 'https://tailwindcss.com/' },
             { text: 'GitHub', link: 'https://github.com/tailwindchina/tailwindchina.com' }
         ]
-    }
+    },
+    plugins: [
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'G-F7SM6GQ27L'
+          }
+        ]
+    ]
 }
