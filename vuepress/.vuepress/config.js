@@ -3,6 +3,7 @@ module.exports = {
     description: 'TailwindCSS 使用教程、TailwindCSS 中文文档及 TailwindCSS 相关资源',
     head: [
         ['meta', {name: 'keywords', content: 'TailwindCSS中文网, TailwindCCSS中文文档, TailwindCCSS文档, TailwindCSS中国, TailwindCSS教程'}],
+        ['link', { rel: 'icon', href: '/logo.png' }]
     ],
     dest: './docs',
     themeConfig: {
