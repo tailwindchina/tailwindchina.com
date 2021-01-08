@@ -1110,6 +1110,13 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-1.8.0.tgz#eb7062e33cd65f4582e012702f7f69ccf0f55ae7"
+  integrity sha1-63Bi4zzWX0WC4BJwL39pzPD1Wuc=
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-google-analytics@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.8.0.tgz#99752be07867730df27e830a15c95b3f25b04741"

@@ -29,6 +29,7 @@ module.exports = {
             {
                 'hostname': 'https://tailwindchina.com'
             }
-        ]
+        ],
+        ['@vuepress/back-to-top'],
     ]
 }

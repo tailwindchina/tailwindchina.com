@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
     "@vuepress/plugin-google-analytics": "^1.8.0",
     "esm": "^3.2.25",
     "vuepress": "^1.7.1",
