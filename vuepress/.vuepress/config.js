@@ -17,6 +17,7 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/tailwindchina/tailwindchina.com' }
         ],
         lastUpdated: true,
+        smoothScroll: true,
     },
     plugins: [
         [
