@@ -15,7 +15,8 @@ module.exports = {
             { text: '交流社群', link: '/discussions/' },
             { text: '英文网站', link: 'https://tailwindcss.com/' },
             { text: 'GitHub', link: 'https://github.com/tailwindchina/tailwindchina.com' }
-        ]
+        ],
+        lastUpdated: true,
     },
     plugins: [
         [
