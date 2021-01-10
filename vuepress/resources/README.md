@@ -30,7 +30,7 @@ sidebar: auto
 [Kometa UI Kit](https://kitwind.io/products/kometa/components/) | 完全响应式的可用于 HTML、VueJS 和 React的可商用的模板。
 [WickedBlocks](https://blocks.wickedtemplates.com/) | 开源的成长中的布局块和组件的集合，用Tailwind CSS V2构建。
 
-## Tailwind 工具
+## TailwindCSS 工具
 
 网站 | 说明
 - | -
@@ -38,3 +38,4 @@ sidebar: auto
 [TailwindShades](https://www.tailwindshades.com/) | Tailwind 调色板定制工具
 [TailwindColor](https://tailwindcolor.com/) | Tailwind 调色板工具
 [Tailwind cheat sheet](https://nerdcave.com/tailwind-cheat-sheet) | Tailwind CSS cheat sheet
+[Windy](https://usewindy.com/) | 把网站上的元素转换成 Tailwind CSS
