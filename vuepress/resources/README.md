@@ -29,6 +29,7 @@ sidebar: auto
 [MerakiUI](https://merakiui.com/) | 漂亮的 TailwindCSS 组件，支持RTL语言，基于 Flexbox 和 CSS Grid 且完全响应式设计。
 [Kometa UI Kit](https://kitwind.io/products/kometa/components/) | 完全响应式的可用于 HTML、VueJS 和 React的可商用的模板。
 [WickedBlocks](https://blocks.wickedtemplates.com/) | 开源的成长中的布局块和组件的集合，用Tailwind CSS V2构建。
+[tailzilla](https://tailzilla.app/) | 可供 TailwindCSS 使用的UI设计组件/模板、代码片段集合
 
 ## TailwindCSS 工具
 
