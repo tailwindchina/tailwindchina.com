@@ -14,3 +14,9 @@ features:
 - title: 相关资源
   details: 有关 TailwindCSS 的各种资源，包括 UI 组件库、插件等相关资源。
 ---
+
+---
+<div style="text-align: center; margin: 20px 0; font-size: 20px; line-height: 2;">
+<div>欢迎加入我们，一起热爱 TailwindCSS，一起让更多的开发者爱上 TailwindCSS ！</div>
+点击【<a href="/about">关于我们</a>】了解详情
+</div>

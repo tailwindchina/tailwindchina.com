@@ -14,6 +14,7 @@ module.exports = {
             { text: '中文文档', link: 'http://docs.tailwindchina.com' },
             { text: '相关资源', link: '/resources/' },
             { text: '交流社群', link: '/discussions/' },
+            { text: '关于我们', link: '/about' },
             { text: '英文网站', link: 'https://tailwindcss.com/' },
             { text: 'GitHub', link: 'https://github.com/tailwindchina/tailwindchina.com' }
         ],
