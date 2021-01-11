@@ -40,3 +40,7 @@ sidebar: auto
 [TailwindColor](https://tailwindcolor.com/) | Tailwind 调色板工具
 [Tailwind cheat sheet](https://nerdcave.com/tailwind-cheat-sheet) | Tailwind CSS cheat sheet
 [Windy](https://usewindy.com/) | 把网站上的元素转换成 Tailwind CSS
+[Tailwind Builder](https://tailwind.build/) | Tailwind CSS 2.0 在线模板编辑器
+[Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation) | 一个漂亮的 TailwindCSS 扩展
+[TailwindCSS Page Creator](https://devdojo.com/tails) | 为TailwindCSS打造的终极拖拽式页面构建器
+
