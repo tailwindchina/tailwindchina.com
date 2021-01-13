@@ -10,7 +10,15 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '网站首页', link: '/' },
-            { text: '使用教程', link: '/guides/' },
+            // { text: '使用教程', link: '/guides/' },
+            {
+                text: '学习',
+                ariaLabel: 'Learn Menu',
+                items: [
+                    { text: '使用教程', link: '/guides/' },
+                    { text: '翻译文章', link: '/translations/' }
+                ]
+            },
             { text: '中文文档', link: 'http://docs.tailwindchina.com' },
             { text: '相关资源', link: '/resources/' },
             { text: '交流社群', link: '/discussions/' },
