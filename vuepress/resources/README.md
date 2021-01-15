@@ -16,6 +16,7 @@ sidebar: auto
 网站 | 说明
 - | -
 [TailwindCSS 中文网](https://tailwindchina.com/) | 包含 TailwindCSS 中文教程、中文文档、相关资源等。
+[Tailwind Youtube](https://www.youtube.com/tailwindlabs) | TailwindCSS 官方 Youtube 频道
 
 ## TailwindCSS UI 模板/组件库
 
