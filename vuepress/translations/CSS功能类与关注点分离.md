@@ -249,7 +249,7 @@ sidebar: auto
 一种方法是直接复制 .author-bio 样式并重命名这些类：
 
 
-```html
+```css
 .article-preview {
   background-color: white;
   border: 1px solid hsl(0,0%,85%);
