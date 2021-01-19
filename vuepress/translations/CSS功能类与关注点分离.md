@@ -124,6 +124,13 @@ sidebar: auto
 
 下面是最终结果的演示：
 
+<p class="codepen" data-height="563" data-theme-id="dark" data-default-tab="html,result" data-user="adamwathan" data-slug-hash="ZJeWBY" style="height: 563px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Author Bio, nested selectors">
+  <span>See the Pen <a href="https://codepen.io/adamwathan/pen/ZJeWBY">
+  Author Bio, nested selectors</a> by Adam Wathan (<a href="https://codepen.io/adamwathan">@adamwathan</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 这种方法对我来说很有意义，有一段时间，我就是这样写 HTML 和 CSS 的。
 
@@ -658,7 +665,7 @@ CSS Zen Garden 采用的是第一种方法，而像 [Bootstrap](http://v4-alpha.
 这感觉很像我们在一开始使用内容驱动类名时遇到的问题，不是吗？
 
 
-解决这个问题的一个方法是想出一个全新的组件，更容易重用，并使用组成。
+解决这个问题的一个方法是想出一个全新的组件，更容易重用，并使用组合。
 
 
 也许我们可以做一个类似 .actions-list 的东西。
