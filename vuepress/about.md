@@ -61,5 +61,5 @@ TailwindCSS 中文网的更新维护，主要包括以下内容
 ![微信](./.vuepress/public/esinger.png)
 
 ::: tip
-注：申请时请填写备注：`tailwindcss`
+注：申请时请填写备注：`TailwindChina`
 :::
