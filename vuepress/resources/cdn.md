@@ -6,8 +6,6 @@ sidebar: auto
 
 ## jsDelivr
 
-[![JsDelivr](https://data.jsdelivr.com/v1/package/npm/tailwindcss/badge)](https://www.jsdelivr.com/package/npm/tailwindcss)
-
 文件 | 地址
 - | -
   base.css | [https://cdn.jsdelivr.net/npm/tailwindcss/dist/base.css](https://cdn.jsdelivr.net/npm/tailwindcss/dist/base.css)
@@ -22,6 +20,15 @@ sidebar: auto
   tailwind.min.css | [https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css](https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css)
   utilities.css | [https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.css](https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.css)
   utilities.min.css | [https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css](https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css)
+
+::: tip 注意
+默认所有地址为已发布的最新版本。
+
+如果要指定具体版本号，请在 `tailwindcss` 后面加上 `@版本号`。
+
+例如，我想使用 2.0.2 版本，那么CDN地址就是
+`https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.css`
+:::
 
 ## unpkg
 
@@ -39,3 +46,12 @@ tailwind.css | [https://unpkg.com/tailwindcss/dist/tailwind.css](https://unpkg.c
 tailwind.min.css | [https://unpkg.com/tailwindcss/dist/tailwind.min.css](https://unpkg.com/tailwindcss/dist/tailwind.min.css)
 utilities.css | [https://unpkg.com/tailwindcss/dist/utilities.css](https://unpkg.com/tailwindcss/dist/utilities.css)
 utilities.min.css | [https://unpkg.com/tailwindcss/dist/utilities.min.css](https://unpkg.com/tailwindcss/dist/utilities.min.css)
+
+::: tip 注意
+默认所有地址为已发布的最新版本。
+
+如果要指定具体版本号，请在 `tailwindcss` 后面加上 `@版本号`。
+
+例如，我想使用 2.0.2 版本，那么CDN地址就是
+`https://unpkg.com/tailwindcss@2.0.2/dist/tailwind.css`
+:::
