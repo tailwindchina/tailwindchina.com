@@ -11,7 +11,7 @@ sidebar: auto
 
 现在是2021年，是时候改变了。[Bootstrap](https://getbootstrap.com/) 作为顶级CSS框架的统治地位已经持续了相当长的时间，然而，这一切都将改变。
 
-[TailwindCSS](https://tailwindcss.com/) 是猫的睡衣，它是蜜蜂的膝盖，它是花生酱和果冻之后最酷的东西🍇。如果你不相信，也许这篇文章会改变这一点。
+[TailwindCSS](https://tailwindcss.com/) 是猫的睡衣，是蜜蜂的膝盖，是花生酱和果冻之后最酷的东西🍇。如果你不相信，也许这篇文章会改变这一点。
 
 ## 再也不写 CSS 了
 
