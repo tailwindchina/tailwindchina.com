@@ -4,6 +4,7 @@ module.exports = {
     head: [
         ['meta', {name: 'keywords', content: 'TailwindCSS中文网, TailwindCSS中文文档, TailwindCSS文档, TailwindCSS中国, TailwindCSS教程'}],
         ['meta', {name: 'google-site-verification', content: 'K6lmDHP95YNtBrmzbE8A5HivIoXC9kPq47XvdBM3jVY'}],
+        ['meta', {name: 'baidu-site-verification', content: 'code-V90DG5kO93'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
     dest: './docs',
