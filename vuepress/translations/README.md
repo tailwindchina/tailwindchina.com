@@ -15,3 +15,7 @@ sidebar: auto
 ## 扩展定制
 
 - [在 TailwindCSS 中自定义动画](./custom-animations-in-tailwindcss.md)
+
+## 组件开发
+
+- [使用 TailwindCSS 构建可复用的 React 组件](./building-reusable-react-components-using-tailwind.md)
