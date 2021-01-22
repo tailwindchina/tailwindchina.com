@@ -35,6 +35,7 @@ module.exports = {
                     {text: '模板组件', link: '/resources/ui'},
                     {text: '工具', link: '/resources/tools'},
                     {text: 'CDN', link: '/resources/cdn'},
+                    {text: '插件', link: '/resources/plugins'},
                 ]
             },
             {text: '社群', link: '/discussions/'},
