@@ -120,7 +120,7 @@ import Button from './Button';
 例如，让我们看一下使用 Tailwind CSS 制作的下拉列表。
 
 
-<video style="width:100%" controls src="https://res.cloudinary.com/indysigner/video/upload/v1589957574/tailwind-dropdown_zfwqtb.mp4" autoplay></video>
+<video style="width:100%" loop controls src="https://res.cloudinary.com/indysigner/video/upload/v1589957574/tailwind-dropdown_zfwqtb.mp4" autoplay></video>
 
 在本例中，我们使用 Tailwind CSS 的功能类创建了一个 HTML 组件，但我们暴露的 React 组件看起来像这样：
 
@@ -210,8 +210,8 @@ export const ButtonSize = {
 在这种情况下，我们有两组常量:
 
 
-- `ButtonType`  定义了我们的应用程序中按钮的样式。
-- 按钮大小定义了我们应用程序中按钮的大小。
+- `ButtonType` 定义了我们的应用程序中按钮的样式。
+- `ButtonSize` 定义了我们应用程序中按钮的大小。
 
 
 
