@@ -16,7 +16,12 @@ features:
 ---
 
 ---
-<div style="text-align: center; margin: 20px 0; font-size: 20px; line-height: 2;">
-<div>欢迎加入我们，一起热爱 TailwindCSS，一起让更多的开发者爱上 TailwindCSS ！</div>
-点击【<a href="/about">关于我们</a>】了解详情
+<div style="text-align: center; margin: 20px 0; font-size: 20px;">
+<p><a href="https://docs.tailwindchina.com/" target="_blank">TailwindCSS 中文文档</a></p>
+</div>
+
+---
+<div style="text-align: center; margin: 20px 0; font-size: 20px;">
+<p>欢迎加入我们，一起热爱 TailwindCSS，一起让更多的开发者爱上 TailwindCSS ！</p>
+<p>点击【<a href="/about">关于我们</a>】了解详情</p>
 </div>
