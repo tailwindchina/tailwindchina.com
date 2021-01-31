@@ -23,5 +23,5 @@ features:
 ---
 <div style="text-align: center; margin: 20px 0; font-size: 20px;">
 <p>欢迎加入我们，一起热爱 TailwindCSS，一起让更多的开发者爱上 TailwindCSS ！</p>
-<p>点击【<a href="/about">关于我们</a>】了解详情</p>
+<p>点击【<a href="/about" target="_blank">关于我们</a>】了解详情</p>
 </div>

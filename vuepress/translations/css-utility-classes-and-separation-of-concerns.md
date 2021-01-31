@@ -285,10 +285,10 @@ sidebar: auto
 这可以工作，但当然不是很 DRY。对于这些组件而言，以稍微不同的方式（可能是不同的填充或字体颜色）进行差异化也可能太容易了，但这可能导致外观的不一致。
 
 
-### 方案2: [@extend ](/extend ) 作者简历组件 
+### 方案2: @extend 作者简历组件 
 
 
-另一种方法是使用你所选择的预处理器的 [@extend ](/extend ) 功能，复用 .author-bio 组件中已经定义的样式：
+另一种方法是使用你所选择的预处理器的 @extend  功能，复用 .author-bio 组件中已经定义的样式：
 
 
 ```css
@@ -1188,6 +1188,6 @@ export default {
 最近，我还发布了自己的免费开源 PostCSS 框架，名为 Tailwind CSS，它是围绕着这种功能类优先的理念设计的，并从重复的模式中提取组件。
 
 
-如果你对此感兴趣，可以去 [Tailwind CSS](https://tailwindcss.com/) 网站了解一下。
+如果你对此感兴趣，可以去 [Tailwind CSS](https://docs.tailwindchina.com/) 网站了解一下。
 
 

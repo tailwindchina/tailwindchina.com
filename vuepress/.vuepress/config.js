@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'TailWindCSS 中文网',
+    title: 'TailwindCSS 中文网',
     description: 'TailwindCSS 使用教程、TailwindCSS 中文文档及 TailwindCSS 相关资源',
     head: [
         ['meta', {name: 'keywords', content: 'TailwindCSS中文网, TailwindCSS中文文档, TailwindCSS文档, TailwindCSS中国, TailwindCSS教程'}],
