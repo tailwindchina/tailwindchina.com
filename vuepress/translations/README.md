@@ -15,6 +15,7 @@ sidebar: auto
 ## 扩展定制
 
 - [在 TailwindCSS 中自定义动画](./custom-animations-in-tailwindcss.md)
+- [在 Tailwind CSS 中设置排版默认值的最佳方法](./typographic-defaults-in-tailwind-css.md)
 
 ## 组件开发
 
