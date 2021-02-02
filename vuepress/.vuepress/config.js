@@ -8,6 +8,11 @@ module.exports = {
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
     dest: './docs',
+    locales: {
+        '/': {
+            lang: 'zh-CN',
+        }
+    },
     themeConfig: {
         logo: '/logo.png',
         nav: [
@@ -59,5 +64,13 @@ module.exports = {
             }
         ],
         ['@vuepress/back-to-top'],
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    return new Date(timestamp).toLocaleDateString();
+                }
+            }
+        ]
     ]
 }
