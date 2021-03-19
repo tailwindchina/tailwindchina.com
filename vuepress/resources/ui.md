@@ -55,3 +55,9 @@ Creative Tim 开发的 Tailwind CSS 主题和模板。
 [tailzilla](https://tailzilla.app/)
 
 可供 TailwindCSS 使用的UI设计组件/模板、代码片段集合
+
+## Tailwind Awesome
+
+[Tailwind Awesome](https://www.tailwindawesome.com/)
+
+优秀的 Tailwind 模板和 UI，包括 Vue、React、WordPress、Laravel 等技术。
